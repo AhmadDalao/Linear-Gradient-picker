@@ -13,6 +13,6 @@
 
 
 <br>
-    <img src="https://raw.githubusercontent.com/AhmadDalao/MemoryGame/master/img/color-picker.png" height="600" width="600"/>
+    <img src="https://raw.githubusercontent.com/AhmadDalao/Linear-Gradient-picker/master/img/color-picker.png" height="600" width="600"/>
 <br>
 
