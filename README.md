@@ -3,12 +3,12 @@
 
 ## Use to see a live demo link below.
 
-- [Linear-Gradient-picker] https://ahmaddalao.github.io/MemoryGame/
+- [Linear-Gradient-picker] https://ahmaddalao.github.io/Linear-Gradient-picker/
 
 
 
 
-## Just choose your colors and see the result.
+## Just choose your colors and see the result. You can also copy the result.
 
 
 
