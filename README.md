@@ -1,15 +1,17 @@
 
 # Linear-Gradient-picker
 
-## Use to see a live demo link below.
+### is a tool to generate linear gradient css code.
+
+
+## Use the link below to see a live demo:
 
 - [Linear-Gradient-picker] https://ahmaddalao.github.io/Linear-Gradient-picker/
 
 
+## Just choose your colors and the corresponding linear gradient code will show up for you.
 
-
-## Just choose your colors and see the result. You can also copy the result.
-
+### Project was built using HTML CSS and JavaScript
 
 
 <br>
