@@ -4,7 +4,8 @@ var color1 = document.getElementById("color1"),
     output = document.getElementById("result"),
     button = document.getElementById("copyText");
 
-output.value = "background: linear-gradient(" + color1.value + ", " + color2.value + ");";
+output.value = "background: linear-gradient(" + color1.value + ", " + color2.value + ");" + "\n";
+output.value += "background: -webkit-linear-gradient(" + color1.value + ", " + color2.value + ");";
 
 color1.addEventListener("input", changeColor);
 color2.addEventListener("input", changeColor);
@@ -14,10 +15,13 @@ function changeColor() {
     console.log(color1.value, color2.value);
 
     myBody.style.background = "linear-gradient(" + color1.value + ", " + color2.value + ")"
+    myBody.style.background += "-webkit-linear-gradient(" + color1.value + ", " + color2.value + ")"
 
-    output.value = "background: linear-gradient(" + color1.value + ", " + color2.value + ");";
+    output.value = "background: linear-gradient(" + color1.value + ", " + color2.value + ");" + "\n";
+    output.value += "background: -webkit-linear-gradient(" + color1.value + ", " + color2.value + ");";
 
-    button.style.background = "linear-gradient(" + color1.value + ", " + color2.value + ")"
+    button.style.background = "linear-gradient(" + color1.value + ", " + color2.value + ")";
+    button.style.background += "-webkit-linear-gradient(" + color1.value + ", " + color2.value + ")";
 
     console.log(output.value);
 
