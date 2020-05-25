@@ -11,6 +11,7 @@
 body {
     background: linear-gradient(#e66465, #f6b73c);
     background: -webkit-linear-gradient(#e66465, #f6b73c);
+    height: 100vh;
 }
 
 button {
@@ -26,24 +27,24 @@ button {
     background: -webkit-linear-gradient(#e66465, #f6b73c);
 }
 
-textarea {
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
+.section {
+    padding: 80px 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .main-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    position: relative;
 }
 
 h1 {
     text-align: center;
     color: white;
     font-size: 44px;
+    padding-bottom: 20px;
 }
 
 .color-picker-container {
@@ -56,4 +57,22 @@ input[type="color"] {
     width: 108px;
     border: none;
     box-shadow: none;
+}
+
+textarea {
+    min-width: 600px;
+    max-width: 800px;
+    display: block;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+    }
+    textarea {
+        min-width: 300px;
+        max-width: 600px;
+    }
 }
